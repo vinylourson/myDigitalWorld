@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    background-color: #2E3436;
+	height: 100%;	
+}
+
+h1 {
+    color: #81E234;
+    font-family: Terminal;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em
+}
+
+footer .push {
+	height: 4em;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+ul {
+    border-top: 2px solid white;
+	padding: 0;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    background-color: white;
+    color: #2E3436;
+    cursor: crosshair;
+}
