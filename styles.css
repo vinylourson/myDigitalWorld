@@ -7,20 +7,38 @@ html, body {
 	height: 100%;	
 }
 
-h1 {
-    color: #81E234;
-    font-family: Terminal;
+header {
+    border-bottom: 2px solid white;
 }
 
-.wrapper {
+h1 {
+    color: #81E234;
+    font-family: "Sawasdee", "Sans-Serif";
+    font-weight: bold;
+    font-size: 8em;
+    text-align: right;
+}
+
+article img {
+    padding: 10px;
+    opacity: 0.3;
+}
+
+article img:hover {
+    padding: 10px;
+    opacity: 1;
+}
+
+/*class permetant de garder le footer toujours en bas*/
+/*.wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -4em
+	margin: 0 auto -40px;
 }
 
-footer .push {
-	height: 4em;
+footer, .push {
+	height: 40px;
 }
 
 footer nav ul li {
@@ -41,3 +59,4 @@ ul a:hover {
     color: #2E3436;
     cursor: crosshair;
 }
+*/
