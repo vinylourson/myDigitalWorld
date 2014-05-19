@@ -28,35 +28,3 @@ article img:hover {
     padding: 10px;
     opacity: 1;
 }
-
-/*class permetant de garder le footer toujours en bas*/
-/*.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -40px;
-}
-
-footer, .push {
-	height: 40px;
-}
-
-footer nav ul li {
-	display: inline;
-}
-
-ul {
-    border-top: 2px solid white;
-	padding: 0;
-}
-
-ul a {
-    color: white;
-}
-
-ul a:hover {
-    background-color: white;
-    color: #2E3436;
-    cursor: crosshair;
-}
-*/
