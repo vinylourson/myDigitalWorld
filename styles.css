@@ -2,6 +2,20 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'exo';
+    src: url('fonts/Exo-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo-italic';
+    src: url('fonts/Exo-Italic.otf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 html, body {
     background-color: #2E3436;
 	height: 100%;	
@@ -13,19 +27,35 @@ header {
 
 h1 {
     color: #81E234;
-    font-family: "Sawasdee", "Sans-Serif";
+    font-family: "exo", "Sans-Serif";
     font-weight: bold;
     font-size: 8em;
     text-align: right;
 }
 
-article img {
+section {
+    display: inline-block;
+    width: 100%
+}
+
+section h2 {
+    color: #729FCF;
+    font-family: "exo-italic", "Sans-Serif";
+    font-weight: normal;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 2em;
+    font-style: italic;
+}
+
+article.icons img {
     margin: 10px;
     opacity: 0.3;
     border-radius: 15px;
+    float: left;
 }
 
-article img:hover {
+article.icons img:hover {
     margin: 10px;
     opacity: 1;
 }
