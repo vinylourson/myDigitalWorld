@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+
+/* Ajout des polices */
 @font-face {
     font-family: 'exo';
     src: url('fonts/Exo-Regular.otf') format('truetype');
@@ -48,14 +50,34 @@ section h2 {
     font-style: italic;
 }
 
-article.icons img {
+article img {
     margin: 10px;
     opacity: 0.3;
     border-radius: 15px;
     float: left;
 }
 
-article.icons img:hover {
+article img:hover {
     margin: 10px;
     opacity: 1;
+}
+
+footer {
+    border-top: 2px solid white;
+    clear: both
+}
+
+footer p {
+    text-align: center;
+    color: #81E234;
+}
+
+footer a, footer a:visited {
+    color: #66D9EF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #C92667;
+    text-decoration: underline;
 }
