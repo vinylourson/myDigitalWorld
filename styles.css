@@ -31,8 +31,18 @@ h1 {
     color: #81E234;
     font-family: "exo", "Sans-Serif";
     font-weight: bold;
-    font-size: 8em;
+    font-size: 2em;
     text-align: right;
+}
+
+h1 a, h1 a:visited {
+    color: #81E234;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #2E3436;
+    background-color: #81E234;
 }
 
 section {
@@ -70,6 +80,7 @@ footer {
 footer p {
     text-align: center;
     color: #81E234;
+    font-family: "exo", "Sans-Serif";
 }
 
 footer a, footer a:visited {
