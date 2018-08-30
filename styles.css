@@ -45,6 +45,22 @@ h1 a:hover {
     background-color: #81E234;
 }
 
+nav {
+    color: #FFF;
+    border-bottom: 2px solid white;
+    font-family: "exo", "Sans-Serif";
+}
+
+nav a, nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2E3436;
+    background-color: #FFF;
+}
+
 section {
     display: inline-block;
     width: 100%
